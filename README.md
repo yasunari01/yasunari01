@@ -20,13 +20,13 @@ Written in **C against the libobs API**, each with its own **HLSL GPU shader** a
 
 ---
 
-### 🔊 [ChatCaster](https://chatcaster.yasunarimurayama.com) — live chat, read aloud · *deployed · used in real broadcasts*
+### 🔊 ChatCaster — live chat, read aloud · *macOS app · used in real broadcasts*
 
-Reads TikTok Live and several YouTube live chats aloud at once, so a streamer with hands on the keyboard doesn't have to watch a chat panel. Ships as a **web application and a macOS desktop app**.
+Reads TikTok Live and several YouTube live chats aloud at once, so a streamer with hands on the keyboard doesn't have to watch a chat panel.
 
-Readers that live in a browser tab stall when the tab loses focus, since browsers throttle background timers — exactly the case when a game is full-screen. The **desktop app connects directly to each source**, one connection per stream; the **web version keeps the queue on the server**, handing the browser one message at a time so no backlog builds up. The queue is bounded by *seconds of lag* rather than message count: a question answered ninety seconds late is noise.
+Readers that live in a browser tab stall when the tab loses focus, since browsers throttle background timers — exactly the case when a game is full-screen. ChatCaster connects **directly to each source**, one independent connection per stream. The queue is bounded by *seconds of lag* rather than message count: a question answered ninety seconds late is noise, so it drops the oldest low-priority message instead of falling behind.
 
-`Python` · `WebSockets` · `nginx` + `systemd` on a VPS · neural TTS
+`Python` · `WebSockets` · neural TTS · macOS menu-bar app
 
 ---
 
