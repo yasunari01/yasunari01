@@ -48,7 +48,7 @@ Qualifies customers and books appointments, deployed on a VPS with booking synce
 
 ### Also built
 
-**Murayama Text Syphon** — real-time text animation for live production, shared over Syphon *(Swift, macOS)* · **AutoClicker** — global-hotkey auto-clicker shipped as a universal `.dmg`, on Quartz `CGEventTap` because the usual Python input library crashes on recent macOS *(Python)* · **Review QR** — QR codes routing customers to a business's Google reviews *(React Native, Expo)* · **Silent MP4 Fixer** — repairs MP4 files with no audio track *(macOS)*
+**HarpyTrader** — private algorithmic trading research system: modular backtesting with look-ahead controls, out-of-sample validation, and a scheduled research loop feeding a passive shadow simulator *(Python, pandas, scikit-learn, ccxt)* · **Murayama Text Syphon** — real-time text animation for live production, shared over Syphon *(Swift, macOS)* · **AutoClicker** — global-hotkey auto-clicker shipped as a universal `.dmg`, on Quartz `CGEventTap` because the usual Python input library crashes on recent macOS *(Python)* · **Review QR** — QR codes routing customers to a business's Google reviews *(React Native, Expo)* · **Silent MP4 Fixer** — repairs MP4 files with no audio track *(macOS)*
 
 → [All products](https://yasunarimurayama.com/products/)
 
